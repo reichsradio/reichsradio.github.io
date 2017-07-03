@@ -80,13 +80,17 @@ label img{
 
 
 #soundboard{
+	
 	margin-top: 5%;
+	width: 100%;
+	height: auto;
+	margin-bottom: 85%;
 }
 
 .untertitel{
 
 	text-align: center;
-	font-family: Tannenberg;
+	font-family: 'UnifrakturCook', cursive;
 	color: white;
 	font-size: 4vw;
 	margin-top: 1%
@@ -149,6 +153,63 @@ body{
 h2{
 text-align: center;
 }
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 160px;
+	background-color: #111;
+	text-align: center;
+	top: auto;
+}
+
+.container{
+	margin-top: 30px;
+	color: #fff;
+	width: 100%;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa-github {
+    color: white;
+}
+
+
+.fa {
+	opacity: 0.7;
+	transition: 1s;
+	-webkit-transition: 1s;
+	margin-bottom: 5px;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+#greif{
+margin-top:  50px;
+}
+
+#greif img{
+	height: 50px;
+}
+
 
 .sound:hover{
 	background:#000;
@@ -281,7 +342,9 @@ text-align: center;
 	#ueberschrift{
 	font-size: 7vw;
 
-
+	#soundboard{
+		margin-bottom: 155%;
+	}
 
 
 #menupic{
@@ -313,6 +376,9 @@ text-align: center;
 		font-size: 4vw;
 	}
 
+	#soundboard{
+		margin-bottom: 165%;
+	}
 
 nav{
 		display:none;
@@ -391,6 +457,10 @@ label{
 
 	.sender{
 		font-size: 6vw;
+	}
+	
+	#soundboard{
+		 margin-bottom: 30%;
 	}
 
 

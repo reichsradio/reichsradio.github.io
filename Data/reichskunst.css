@@ -18,9 +18,73 @@ header{
 
 
 body{
-
+	
 }
 
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 160px;
+	background-color: #111;
+	text-align: center;
+	top: auto;
+}
+
+.container{
+	margin-top: 30px;
+	color: #fff;
+	width: 100%;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa-github {
+    color: white;
+}
+
+
+.fa {
+	opacity: 0.7;
+	transition: 1s;
+	-webkit-transition: 1s;
+	margin-bottom: 5px;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+#greif{
+margin-top:  50px;
+}
+
+#greif img{
+	height: 50px;
+}
+
+
+
+
+#info{
+	
+	
+		
+}
 
 label{
 	float: left;
@@ -81,12 +145,15 @@ label img{
 
 #soundboard{
 	margin-top: 5%;
+	width: 100%;
+	height: auto;
+	margin-bottom: 85%;
 }
 
 .untertitel{
 
 	text-align: center;
-	font-family: Tannenberg;
+	font-family: 'UnifrakturCook', cursive;
 	color: white;
 	font-size: 4vw;
 	margin-top: 1%
@@ -111,6 +178,7 @@ label img{
 .banner{
 	text-align: center;
 	height:auto;
+
 }
 
 
@@ -245,7 +313,13 @@ h2{
 @font-face{font-family:"Tannenberg";src:url("TannenbergFett.ttf") format("truetype")}
 @font-face{font-family:"Lohl";src:url("lohl.ttf") format("truetype")}
 
-@media (max-width:1280px){
+@media ( max-width : 1280px ){
+	
+	#soundboard{
+		margin-bottom: 155%;
+	}
+	
+	
 	.feld{
 		width:27.5%;
 		font-size:3vw;
@@ -259,6 +333,15 @@ h2{
 #menupic{
 	display: none;
 }
+	
+	.footer {
+	height: 130px;
+	
+}
+	
+	.container{
+  margin-top: 15px;
+}
 
 
 
@@ -266,6 +349,20 @@ h2{
 
 
 @media (max-width:980px){
+	
+	
+	#soundboard{
+		margin-bottom: 165%;
+	}
+	
+	.footer {
+	height: 130px;
+}
+	
+	.container{
+  margin-top: 15px;
+}
+	
 	.menu{
 		display:block;
 		position: absolute;
@@ -346,6 +443,23 @@ label{
 }
 
 @media (max-width:720px){
+	
+	#soundboard{
+		 margin-bottom: 30%;
+	}
+	
+	.footer {
+	height: 130px;
+	}
+	
+	.container{
+		margin-top: 20px;
+	}
+	
+	#greif img{
+	height:33px;
+}
+	
 	.feld{
 		width:92%;
 		font-size:6vw;
